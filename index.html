@@ -123,7 +123,7 @@
 
   // Layer control (basemaps + overlays)
   const baseMaps = { 'OSM': osm, 'Google Satellite Hybrid': Google_Satellite, 'OpenTopoMap': Topo };
-  const overlays = { 'Localité': pointsLayer, 'Découpage Adminitrative': regionsLayer };
+  const overlays = { 'Localité': pointsLayer, 'Découpage Administrative': regionsLayer };
   L.control.layers(baseMaps, overlays, {collapsed:false}).addTo(map);
 
   // Zoom control - Leaflet has it by default but we can move it
